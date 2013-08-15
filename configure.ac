@@ -54,11 +54,10 @@ AC_SUBST(libnotify_CFLAGS)
 AC_SUBST(libnotify_LIBS)
 
 AC_CONFIG_SUBDIRS( liblogc )
-	liblogc_CFLAGS="-I\$(top_srcdir)/libtwitc/example/logc/include"
-	liblogc_LIBS="\$(top_builddir)/libtwitc/example/logc/src/liblogc.a"
+	liblogc_CFLAGS="-I\$(top_srcdir)/liblogc/include"
+	liblogc_LIBS="\$(top_builddir)/liblogc/src/liblogc.a"
 AC_SUBST(liblogc_CFLAGS)
 AC_SUBST(liblogc_LIBS)
-
 
 AC_CONFIG_SUBDIRS( libtwitc )
 	libtwitc_CFLAGS="-I\$(top_srcdir)/libtwitc/include"
@@ -89,7 +88,7 @@ share/icons/Makefile
 share/applications/Makefile
 po/Makefile.in
 libtwitc/Makefile
-libtwitc/example/logc/Makefile
+liblogc/Makefile
 src/Makefile
 Makefile
 ])

@@ -1,3 +1,6 @@
+[submodule "liblogc"]
+	path = liblogc
+	url = https://github.com/KernelMonkey/liblogc.git
 [submodule "libtwitc"]
 	path = libtwitc
-	url = git://github.com/KernelMonkey/libtwitc.git
+	url = https://github.com/KernelMonkey/libtwitc.git
