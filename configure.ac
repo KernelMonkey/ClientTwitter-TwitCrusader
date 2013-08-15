@@ -88,8 +88,8 @@ AC_CONFIG_FILES([
 share/icons/Makefile
 share/applications/Makefile
 po/Makefile.in
-libtwitc/example/logc/Makefile
 libtwitc/Makefile
+libtwitc/example/logc/Makefile
 src/Makefile
 Makefile
 ])
